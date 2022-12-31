@@ -40,7 +40,7 @@
 
         <div class="pencil-width-cont">
 
-            <input type="range" min="3" max="10" value="3" class="pencil-width">
+            <input type="range" min="3" max="50" value="3" class="pencil-width">
 
         </div>
         <div class="pencil-color-cont">
@@ -56,7 +56,7 @@
     </div>
 
     <div class="eraser-tool-cont">
-        <input type="range" min="3" max="10" value="3" class="eraser-width">
+        <input type="range" min="3" max="100" value="3" class="eraser-width">
     </div>
 
 
@@ -80,7 +80,7 @@
         integrity="sha384-/KNQL8Nu5gCHLqwqfQjA689Hhoqgi2S84SNUxC3roTe4EhJ9AfLkp8QiQcU8AMzI"
         crossorigin="anonymous"></script>
     <script>
-        let socket = io.connect("https://quick-board-dk4ba6wj4-edwardash.vercel.app/");
+        let socket = io.connect("http://localhost:5000/");
     </script>
 
     <script src="./tools.js"></script>
